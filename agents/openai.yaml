@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reliable Loading Lifecycle"
+  short_description: "Audit and enforce resilient loading across web applications"
+  default_prompt: "Use $reliable-loading-lifecycle to audit this project and implement the smallest suitable shared loading mechanism with enforceable CI checks."
