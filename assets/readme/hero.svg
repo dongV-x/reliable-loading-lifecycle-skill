@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Reliable Loading Lifecycle</title><desc id="desc">请求经过身份、缓存、状态和验证边界，形成可恢复的加载生命周期。</desc>
+<rect width="1200" height="320" rx="24" fill="#0B0D10"/><g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<text x="64" y="66" font-size="18" letter-spacing="3" fill="#A7F3D0">SHARED INVARIANTS / FAILURE RECOVERY</text>
+<text x="64" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="800" fill="#F8FAFC">Reliable Loading</text>
+<text x="64" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="24" fill="#CBD5E1">让慢、错、切换和重试都有可追溯的边界。</text>
+<text x="64" y="270" font-size="17" fill="#64748B">ADAPT THE STACK · MEASURE THE BOTTLENECK · ENFORCE THE CONTRACT</text></g>
+<g transform="translate(700 64)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<path d="M48 92H350M48 160H350M48 228H350" stroke="#334155" stroke-width="2"/>
+<g fill="#111827" stroke="#A7F3D0" stroke-width="2"><rect x="0" y="60" width="118" height="64" rx="10"/><rect x="154" y="60" width="118" height="64" rx="10"/><rect x="308" y="60" width="118" height="64" rx="10"/><rect x="77" y="196" width="118" height="64" rx="10"/><rect x="231" y="196" width="118" height="64" rx="10"/></g>
+<g fill="#F8FAFC" font-size="16" text-anchor="middle"><text x="59" y="98">REQUEST</text><text x="213" y="98">IDENTITY</text><text x="367" y="98">CACHE</text><text x="136" y="234">STATE</text><text x="290" y="234">VERIFY</text></g>
+<path d="M118 92H154M272 92H308M367 124V174H290V196M77 228H48V92" fill="none" stroke="#FB8C6A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g></svg>

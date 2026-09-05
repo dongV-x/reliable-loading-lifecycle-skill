@@ -4,6 +4,14 @@ A Codex skill for auditing and implementing resilient loading behavior across we
 
 It covers shared request transport, cache identity, cancellation, loading/error/refresh states, mutation safety, long jobs, and CI enforcement. The skill first inspects the target stack, then chooses the smallest suitable adapter.
 
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Reliable Loading：请求经过身份、缓存、状态和验证边界。">
+</p>
+
+## Scope
+
+Use it when a page can go blank, show stale data, duplicate requests, lose cancellation, or retry a consequential write unsafely. It adapts to the existing stack; it does not promise faster backend responses or replace measurement of the actual bottleneck.
+
 ## Install
 
 ```bash
