@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">把加载当成一条可验证的生命周期</title>
+<desc id="desc">同一套边界覆盖请求、身份、缓存、状态、取消和失败恢复。</desc>
+<rect width="1200" height="440" rx="28" fill="#F1F4F6"/>
+<path d="M64 112H1136" stroke="#D4EEE8" stroke-width="2"/>
+<text x="64" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="16" font-weight="800" letter-spacing="3" fill="#1C8B78">PROJECT PROOF / HOW IT WORKS</text>
+<text x="64" y="98" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="30" font-weight="800" fill="#121A20">把加载当成一条可验证的生命周期</text>
+<text x="64" y="144" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="18" fill="#5E6D78">同一套边界覆盖请求、身份、缓存、状态、取消和失败恢复。</text>
+<path d="M112 252H1088" stroke="#D4EEE8" stroke-width="10" stroke-linecap="round"/>
+<circle cx="150" cy="252" r="25" fill="#1C8B78"/>
+<text x="150" y="259" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="800" fill="#FFFFFF">READ</text>
+<rect x="40" y="180" width="220" height="52" rx="12" fill="#FFFFFF" stroke="#D4EEE8" stroke-width="2"/>
+<text x="150" y="213" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="21" font-weight="800" fill="#121A20">请求边界</text>
+<text x="150" y="310" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="16" fill="#5E6D78">deadline · abort · parse</text>
+<circle cx="410" cy="252" r="25" fill="#1C8B78"/>
+<text x="410" y="259" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="800" fill="#FFFFFF">SCOPE</text>
+<rect x="300" y="180" width="220" height="52" rx="12" fill="#FFFFFF" stroke="#D4EEE8" stroke-width="2"/>
+<text x="410" y="213" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="21" font-weight="800" fill="#121A20">身份完整</text>
+<text x="410" y="310" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="16" fill="#5E6D78">account · tenant · filters</text>
+<circle cx="670" cy="252" r="25" fill="#1C8B78"/>
+<text x="670" y="259" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="800" fill="#FFFFFF">STATE</text>
+<rect x="560" y="180" width="220" height="52" rx="12" fill="#FFFFFF" stroke="#D4EEE8" stroke-width="2"/>
+<text x="670" y="213" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="21" font-weight="800" fill="#121A20">状态清楚</text>
+<text x="670" y="310" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="16" fill="#5E6D78">empty · refresh · error</text>
+<circle cx="930" cy="252" r="25" fill="#1C8B78"/>
+<text x="930" y="259" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="800" fill="#FFFFFF">PROVE</text>
+<rect x="820" y="180" width="220" height="52" rx="12" fill="#FFFFFF" stroke="#D4EEE8" stroke-width="2"/>
+<text x="930" y="213" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="21" font-weight="800" fill="#121A20">验证门禁</text>
+<text x="930" y="310" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" font-size="16" fill="#5E6D78">tests · bypass probe</text>
+</svg>

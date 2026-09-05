@@ -8,6 +8,18 @@ It covers shared request transport, cache identity, cancellation, loading/error/
   <img src="./assets/readme/hero.svg" width="100%" alt="Reliable Loading：请求经过身份、缓存、状态和验证边界。">
 </p>
 
+<p align="center">
+  <img src="./assets/readme/showcase.svg" width="100%" alt="Reliable Loading 的四层工作方式：请求边界、身份完整、状态清楚、验证门禁。">
+</p>
+
+## What you get
+
+| Layer | Question it answers |
+|---|---|
+| Diagnose | Is the bottleneck really a loading lifecycle problem? |
+| Adapt | Which existing request, cache, and state libraries should stay? |
+| Enforce | How do tests and a negative probe stop future bypasses? |
+
 ## Scope
 
 Use it when a page can go blank, show stale data, duplicate requests, lose cancellation, or retry a consequential write unsafely. It adapts to the existing stack; it does not promise faster backend responses or replace measurement of the actual bottleneck.
